@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move method &apos;com.xworkz.app.PowerBank.brand()&apos; to &apos;com.xworkz.app.PowerBank.battery&apos;&#x0D;&#x0A;- Original project: &apos;28-07-2023 AssociationMethods&apos;&#x0D;&#x0A;- Original element: &apos;com.xworkz.app.PowerBank.brand()&apos;&#x0D;&#x0A;- Moved method: N/A&#x0D;&#x0A;- Target element: &apos;com.xworkz.app.PowerBank.battery&apos;&#x0D;&#x0A;- Method name: &apos;brand&apos;&#x0D;&#x0A;- Parameter name: &apos;powerBank&apos;" deprecate="true" description="Move method &apos;brand&apos;" flags="786438" getter="true" id="org.eclipse.jdt.ui.move.method" inline="true" input="/src&lt;com.xworkz.app{PowerBank.java[PowerBank~brand" name="brand" remove="true" setter="true" stamp="1690558825443" targetIndex="0" targetName="powerBank" version="1.0"/>
+</session>

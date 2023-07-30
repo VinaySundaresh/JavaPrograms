@@ -1,0 +1,13 @@
+package com.xworkz.boot;
+
+import com.xworkz.app.Shop;
+
+public class ShopRunner {
+
+	public static void main(String[] args) {
+		Shop shop=new Shop();
+		shop.shopLocation();
+
+	}
+
+}

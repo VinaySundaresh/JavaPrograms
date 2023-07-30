@@ -1,0 +1,10 @@
+package com.xworkz.app;
+
+public class Hotel {
+	Cook cook=new Cook();
+	public void hotelName()
+	{
+		System.out.println("Invoking Hotelname in Hotel");
+		cook.shift();
+	}
+}
