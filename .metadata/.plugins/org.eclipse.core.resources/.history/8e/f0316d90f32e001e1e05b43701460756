@@ -1,9 +1,0 @@
-package com.xworkz.app;
-
-public class Doctor {
-
-	public void specialisation()
-	{
-		System.out.println("Invoking specialization in Doctor");
-	}
-}
