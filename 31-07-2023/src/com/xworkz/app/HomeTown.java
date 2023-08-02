@@ -14,4 +14,10 @@ public class HomeTown {
 		this.area=area;
 	
 	}
+
+	public void printInfo() {
+		System.out.println("Name of the home Town is "+this.name);
+		System.out.println("Pincode for homeTown is "+this.pinCode);
+		
+	}
 }

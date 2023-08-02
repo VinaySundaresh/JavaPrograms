@@ -12,7 +12,7 @@ public class Floor {
 	}
 
 	public void printInfo() {
-		System.out.println("-----------------------------------------------------------------------------------------------------");
+		//System.out.println("-----------------------------------------------------------------------------------------------------");
 		System.out.println("Name of the floor is"+this.name);
 		System.out.println("Number of floors is "+this.noOfFloors);
 		

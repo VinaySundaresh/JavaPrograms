@@ -8,7 +8,13 @@ public class Building {
 	
 	Floor floor1=new Floor("First",101);
 	Floor floor2=new Floor("Second",201);
-	public Floor[] floor={floor1,floor2};
+	Floor floor3=new Floor("third",301);
+	Floor floor4=new Floor("fourth",401);
+	Floor floor5=new Floor("fifth",501);
+	Floor floor6=new Floor("sixth",601);
+	Floor floor7=new Floor("Seventh",701);
+	
+	public Floor[] floor={floor1,floor2,floor3,floor4,floor5,floor6,floor7};
 	
 	Lift lift1=new Lift("A");
 	Lift lift2=new Lift("B");
@@ -29,12 +35,13 @@ public class Building {
 		System.out.println("building name is "+this.buildName);
 		System.out.println("Location of the building is "+this.location);
 		System.out.println("No of cross building is located :"+this.noOfCross);
+		System.out.println("-----------------------------------------------------------------------------------------------------");
 		for(int i=0;i<floor.length;i++)
 		{
 			Floor floors=floor[i];
 			floors.printInfo();
 		}
-		
+		System.out.println("-----------------------------------------------------------------------------------------------------");
 		for(int i=0;i<lift.length;i++)
 		{
 			Lift lifts=lift[i];

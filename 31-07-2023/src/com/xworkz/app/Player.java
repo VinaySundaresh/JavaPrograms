@@ -32,6 +32,7 @@ public class Player {
 		Area areaNew=area[i];
 		areaNew.printInfo();
 		}
+		town.printInfo();
 	}
 	
 	
