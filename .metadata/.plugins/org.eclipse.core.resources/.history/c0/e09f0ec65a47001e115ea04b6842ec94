@@ -1,0 +1,11 @@
+package com.xworkz.abstraction.app.implement;
+
+public class Geometry {
+	
+	Shape shape;
+	public void setShape(Shape shape)
+	{
+		this.shape=shape;
+	}
+
+}

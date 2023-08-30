@@ -1,0 +1,13 @@
+package com.xworkz.abstraction.boot;
+
+import com.xworkz.abstraction.app.implement.ChromeBrowser;
+import com.xworkz.abstraction.app.rule.Internet;
+
+public class InternetRunner {
+
+	public static void main(String[] args) {
+		
+		Internet internet=new ChromeBrowser();
+	}
+
+}

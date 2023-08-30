@@ -1,0 +1,10 @@
+package com.xworkz.abstraction.boot;
+
+public class ShapeRunner {
+
+	public static void main(String[] args) {
+		System.out.println("ivnoking main in ShapeRunner");
+
+	}
+
+}

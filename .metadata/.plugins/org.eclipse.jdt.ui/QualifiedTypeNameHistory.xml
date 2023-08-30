@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.rule.Internet"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.ChromeBrowser"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Browser"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.boot.PassportVerificationRunner"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.rule.PassportVerification"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Security"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Custom"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.rule.Shape"/>
+<fullyQualifiedTypeName name="java.awt.Rectangle"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Rectangle"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Geometry"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.rule.Animal"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Dog"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.LivingBeing"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Hindustani"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.rule.Music"/>
+<fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Singer"/>
+</qualifiedTypeNameHistroy>
