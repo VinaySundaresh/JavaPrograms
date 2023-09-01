@@ -17,4 +17,21 @@
 <fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Hindustani"/>
 <fullyQualifiedTypeName name="com.xworkz.abstraction.app.rule.Music"/>
 <fullyQualifiedTypeName name="com.xworkz.abstraction.app.implement.Singer"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.GroceryRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.GroceryRepository"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.GroceryRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.ArtistRepository"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.ArtistRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.JacketRepository"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.JacketRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.PatientRepository"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.PatientRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.PoliticianRepository"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.PolticianRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.HistoricalPlaces"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.HistoricalPlacesRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.MedicineRepository"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.MedicalRepositoryImpl"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.repository.PilotRepository"/>
+<fullyQualifiedTypeName name="com.xworkz.chandrayan.app.implementation.PilotRepositoryImpl"/>
 </qualifiedTypeNameHistroy>

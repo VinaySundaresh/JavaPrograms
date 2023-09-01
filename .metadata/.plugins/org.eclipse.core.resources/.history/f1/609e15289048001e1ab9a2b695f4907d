@@ -1,0 +1,16 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.ArtistRepository;
+
+public class ArtistRepositoryImpl implements ArtistRepository {
+
+	private String[] names=new String[NO_OF_ARTISTS];
+	private int pos;
+	
+	@Override
+	public void details(String name) {
+		System.out.println("invoking details() in ArtistRepositoryImpl");
+
+	}
+
+}

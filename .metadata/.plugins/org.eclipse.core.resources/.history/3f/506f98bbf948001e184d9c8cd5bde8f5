@@ -1,0 +1,8 @@
+package com.xworkz.chandrayan.app.repository;
+
+public interface Medicine {
+	
+	int NO_OF_MEDICINES=10;
+	void cause(String name);
+
+}

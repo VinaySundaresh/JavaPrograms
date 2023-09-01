@@ -1,0 +1,26 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.JacketRepository;
+
+public class JacketRepositoryImpl implements JacketRepository {
+
+	private String[] jacketName=new String[NO_OF_JACKETS];
+	private int position;
+	@Override
+	public void event(String name) {
+		System.out.println("Invoking event() in JacketRepositoryImpl");
+		
+		if(this.position<NO_OF_JACKETS)
+		{
+			this.jacketName[position]=name;
+			System.out.println("Jacket added "+name+" at position "+this.position);
+			position++;
+		}
+		
+		else{
+			System.err.println("Data store is full cannot added to jacket");
+		}
+		
+	}
+
+}

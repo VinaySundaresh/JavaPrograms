@@ -1,0 +1,13 @@
+package com.xworkz.chandrayan.app;
+
+import com.xworkz.chandrayan.app.repository.GroceryRepository;
+
+public class GroceryRepositoryImpl implements GroceryRepository {
+
+	@Override
+	public void save(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

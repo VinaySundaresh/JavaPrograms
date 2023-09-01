@@ -1,0 +1,5 @@
+package com.xworkz.chandrayan.app;
+
+public interface GroceryRepository {
+
+}

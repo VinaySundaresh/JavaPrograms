@@ -1,0 +1,16 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.PatientRepository;
+
+public class PatientRepositoryImpl implements PatientRepository {
+
+	private String[] diseaseName=new String[NO_OF_PATIENTS];
+	private position;
+	
+	@Override
+	public void disease(String name) {
+		System.out.println("invoking disease() in PatientRepositoryImpl");
+
+	}
+
+}

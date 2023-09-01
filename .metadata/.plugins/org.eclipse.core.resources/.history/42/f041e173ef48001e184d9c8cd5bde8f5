@@ -1,0 +1,10 @@
+package com.xworkz.chandrayan.boot;
+
+public class PatientRunner {
+
+	public static void main(String[] args) {
+		System.out.println("invoking main() in PatientRunner");
+
+	}
+
+}

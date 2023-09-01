@@ -1,0 +1,9 @@
+package com.xworkz.chandrayan.app.repository;
+
+public interface JacketRepository {
+	
+	final int NO_OF_JACKETS=10;
+	
+	
+
+}

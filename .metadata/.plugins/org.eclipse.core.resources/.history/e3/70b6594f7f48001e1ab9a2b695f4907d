@@ -1,0 +1,17 @@
+package com.xworkz.chandrayan.boot;
+
+import com.xworkz.chandrayan.app.GroceryRepositoryImpl;
+import com.xworkz.chandrayan.app.repository.GroceryRepository;
+
+public class GroceryRunner {
+
+	public static void main(String[] args) {
+		
+		System.out.println("invoking main() in GroceryRunner");
+		
+		GroceryRepository repository=new GroceryRepositoryImpl();
+		
+		repository.save("Sugar");
+	}
+
+}

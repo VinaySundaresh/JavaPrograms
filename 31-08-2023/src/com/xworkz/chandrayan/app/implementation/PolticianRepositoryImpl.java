@@ -1,0 +1,25 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.PoliticianRepository;
+
+public class PolticianRepositoryImpl implements PoliticianRepository {
+
+	private String[] politiciansNames=new String[NO_OF_TYPES];
+	private int position;
+	
+	@Override
+	public void exp(String name) {
+		System.out.println("Invoking exp() in PoliticianRepositoryImpl");
+		if(this.position<NO_OF_TYPES)
+		{
+			this.politiciansNames[position]=name;
+			System.out.println("Politician name "+name +" added at position "+this.position);
+			position++;
+		}
+		else{
+			System.err.println("Data store is full cannot add new politician");
+		}
+		
+	}
+
+}

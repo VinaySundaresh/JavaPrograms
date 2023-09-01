@@ -1,0 +1,13 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.HistoricalPlaces;
+
+public class HistoricalPlacesRepositoryImpl implements HistoricalPlaces {
+
+	@Override
+	public void distance(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

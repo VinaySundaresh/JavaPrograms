@@ -1,0 +1,24 @@
+package com.xworkz.chandrayan.boot;
+
+import com.xworkz.chandrayan.app.implementation.PilotRepositoryImpl;
+import com.xworkz.chandrayan.app.repository.PilotRepository;
+
+public class PilotRunner {
+
+	public static void main(String[] args) {
+		System.out.println("invoking main in PilotRunner");
+		
+		PilotRepository pilotRepository=new PilotRepositoryImpl();
+		pilotRepository.drive("Captain Amelia Johnson");
+		pilotRepository.drive("First Officer Daniel Martinez");
+		pilotRepository.drive("Captain Emily Turner");
+		pilotRepository.drive("First Officer Michael Lee");
+		pilotRepository.drive("Captain Sarah Mitchell");
+		pilotRepository.drive("");
+		pilotRepository.drive("");
+		pilotRepository.drive("");
+		pilotRepository.drive("");
+		pilotRepository.drive("");
+	}
+
+}

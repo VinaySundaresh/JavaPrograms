@@ -1,0 +1,13 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.ArtistRepository;
+
+public class ArtistRepositoryImpl implements ArtistRepository {
+
+	@Override
+	public void details(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

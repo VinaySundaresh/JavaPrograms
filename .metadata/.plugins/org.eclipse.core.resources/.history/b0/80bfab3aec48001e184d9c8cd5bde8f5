@@ -1,0 +1,13 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.JacketRepository;
+
+public class JacketRepositoryImpl implements JacketRepository {
+
+	@Override
+	public void event(String name) {
+		System.out.println("Invoking event() in JacketRepositoryImpl");
+
+	}
+
+}

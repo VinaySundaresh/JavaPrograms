@@ -1,0 +1,13 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.MedicineRepository;
+
+public class MedicalRepositoryImpl implements MedicineRepository {
+
+	@Override
+	public void cause(String name) {
+		System.out.println("Invoking cause() in MedicialRepositoryImpl");
+
+	}
+
+}

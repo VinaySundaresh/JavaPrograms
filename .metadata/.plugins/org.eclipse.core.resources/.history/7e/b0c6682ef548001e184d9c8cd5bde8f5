@@ -1,0 +1,13 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.PoliticianRepository;
+
+public class PolticianRepositoryImpl implements PoliticianRepository {
+
+	@Override
+	public void exp(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.xworkz.chandrayan.boot;
+
+import com.xworkz.chandrayan.app.implementation.PatientRepositoryImpl;
+import com.xworkz.chandrayan.app.repository.PatientRepository;
+
+public class PatientRunner {
+
+	public static void main(String[] args) {
+		System.out.println("invoking main() in PatientRunner");
+		
+		PatientRepository patientRepository=new PatientRepositoryImpl();
+		
+		patientRepository.disease("Fever");
+		patientRepository.disease("Diaheara");
+		patientRepository.disease("Dengue");
+
+	}
+
+}

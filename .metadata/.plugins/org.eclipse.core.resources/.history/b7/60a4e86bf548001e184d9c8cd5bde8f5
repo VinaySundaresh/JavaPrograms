@@ -1,0 +1,18 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.PoliticianRepository;
+
+public class PolticianRepositoryImpl implements PoliticianRepository {
+
+	private String[] politiciansNames=new String[NO_OF_TYPES];
+	private int position;
+	
+	@Override
+	public void exp(String name) {
+		System.out.println("Invoking exp() in PoliticianRepositoryImpl");
+		
+		
+
+	}
+
+}

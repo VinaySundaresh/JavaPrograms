@@ -1,0 +1,14 @@
+package com.xworkz.chandrayan.app.implementation;
+
+import com.xworkz.chandrayan.app.repository.Patient;
+import com.xworkz.chandrayan.app.repository.PatientRepository;
+
+public class PatientRepositoryImpl implements PatientRepository {
+
+	@Override
+	public void disease(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
