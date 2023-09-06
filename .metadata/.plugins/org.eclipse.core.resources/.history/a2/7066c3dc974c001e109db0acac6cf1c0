@@ -1,0 +1,20 @@
+package com.xworkz.implementation;
+
+public class CountryRepositoryImpl implements CountryRepository {
+
+	private String[] coutryNames=new String[5];
+	private int position;
+	
+	@Override
+	public void storeCountry(String country) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean isExist(String country) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

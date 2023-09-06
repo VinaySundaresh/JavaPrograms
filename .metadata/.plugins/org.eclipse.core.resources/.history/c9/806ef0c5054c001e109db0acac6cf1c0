@@ -1,0 +1,11 @@
+package com.xworkz.services;
+
+public class PincodeServiceImpl implements PincodeService {
+
+	@Override
+	public boolean validateAndSave(int pincodes) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

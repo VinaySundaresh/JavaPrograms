@@ -1,0 +1,15 @@
+package com.xworkz.services;
+
+public class MobileNoServiceImpl implements MobileNoService {
+
+	@Override
+	public boolean validateAndSave(long mobileNo) {
+		System.out.println("invoking validateAndSave in "+this.getClass().getSimpleName());
+		if(mobileNo>9000000000l && mobileNo <999999999l)
+		{
+			return true;
+		}
+		return false;
+	}
+
+}

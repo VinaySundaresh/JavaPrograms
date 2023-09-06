@@ -1,0 +1,11 @@
+package com.xworkz.implementation;
+
+public class MobileNoRepositoryImpl implements MobileNoRepository {
+
+	@Override
+	public void storeMobile(long mobileNo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

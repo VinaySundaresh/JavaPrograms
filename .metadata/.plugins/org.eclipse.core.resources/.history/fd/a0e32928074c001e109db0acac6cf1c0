@@ -1,0 +1,11 @@
+package com.xworkz.Runner;
+
+import com.xworkz.implementation.PincodeRepository;
+
+public class PincodeRunner {
+
+	public static void main(String[] args) {
+		PincodeRepository pincodeRepository=new PincodeRepositoryImpl();
+	}
+
+}

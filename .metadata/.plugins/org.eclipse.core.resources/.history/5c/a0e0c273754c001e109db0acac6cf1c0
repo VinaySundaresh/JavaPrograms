@@ -1,0 +1,22 @@
+package com.xworkz.services;
+
+import com.xworkz.implementation.TrainNumberRepository;
+
+public class TrainNumberServiceImpl implements TrainNumberService {
+
+	private TrainNumberRepository trainNumberrepository;
+	
+	
+	@Override
+	public boolean validateAndStore(int trainNo) {
+		if(trainNo>10000 && trainNo<50000)
+		{
+			if(!trainNumberrepository.isExist(trainNo))
+			{
+				System.out.println("Train number "+trainNo+" is valid ");
+			}
+		}
+		return false;
+	}
+
+}

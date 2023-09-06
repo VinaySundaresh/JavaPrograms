@@ -1,0 +1,14 @@
+package com.xworkz.implementation;
+
+public class TrainNumberRepositoryImpl implements TrainNumberRepository {
+
+	
+	private int[] trainNos=new int[NO_OFTRAINS];
+	private int position;
+	@Override
+	public void store(int trainNo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

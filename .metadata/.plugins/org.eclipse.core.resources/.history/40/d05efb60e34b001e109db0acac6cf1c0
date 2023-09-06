@@ -1,0 +1,7 @@
+package com.xworkz.services;
+
+public interface JuiceService {
+	
+	void validateAndSave(String juice);
+
+}

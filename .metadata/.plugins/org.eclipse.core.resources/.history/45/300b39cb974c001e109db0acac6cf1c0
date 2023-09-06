@@ -1,0 +1,11 @@
+package com.xworkz.implementation;
+
+public class CountryRepositoryImpl implements CountryRepository {
+
+	@Override
+	public void storeCountry(String country) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

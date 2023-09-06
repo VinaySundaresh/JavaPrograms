@@ -1,0 +1,12 @@
+package com.xworkz.services;
+
+public class TrainNumberServiceImpl implements TrainNumberService {
+
+	TrainNumberRepository trainNumberrepository;
+	@Override
+	public boolean validateAndStore(int trainNo) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.xworkz.Runner;
+
+import com.xworkz.implementation.MobileNoRepository;
+
+public class MobileRunner {
+
+	public static void main(String[] args) {
+		MobileNoRepository mobileNoRepository=new MobileNoRepositoryImpl();
+	}
+
+}

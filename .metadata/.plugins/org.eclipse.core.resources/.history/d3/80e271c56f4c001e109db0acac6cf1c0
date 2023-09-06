@@ -1,0 +1,17 @@
+package com.xworkz.Runner;
+
+import com.xworkz.implementation.LocationRepository;
+import com.xworkz.implementation.LocationRepositoryImpl;
+import com.xworkz.services.LocationService;
+
+public class LocationRunner {
+
+	public static void main(String[] args) {
+		System.out.println("invoking main in LocationRunner");
+		
+		LocationRepository locationRepository=new LocationRepositoryImpl();
+		LocationService locationService=new LocationRepositoryImpl(locationRepository);
+
+	}
+
+}

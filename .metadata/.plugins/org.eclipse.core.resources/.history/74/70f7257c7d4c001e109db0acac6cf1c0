@@ -1,0 +1,12 @@
+package com.xworkz.implementation;
+
+public class MobileNoRepositoryImpl implements MobileNoRepository {
+
+	private long[] mobileNos=new long[NO_OF_MOBILENO];
+	@Override
+	public void storeMobile(long mobileNo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

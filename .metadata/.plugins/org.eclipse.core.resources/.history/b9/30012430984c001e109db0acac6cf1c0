@@ -1,0 +1,25 @@
+package com.xworkz.implementation;
+
+public class CountryRepositoryImpl implements CountryRepository {
+
+	private String[] coutryNames=new String[5];
+	private int position;
+	
+	@Override
+	public void storeCountry(String country) {
+		System.out.println("invoking storeCountry() in "+this.getClass().getSimpleName());
+		if(this.position<NO_OF_COUNTRY){
+			this.coutryNames[position]=country;
+			System.out.println("Country name "+country+" is added at position "+this.position);
+			position++;
+		}
+
+	}
+
+	@Override
+	public boolean isExist(String country) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.xworkz.services;
+
+public class CountryServiceImpl implements CountryService {
+
+	@Override
+	public boolean validateAndSave(String name) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

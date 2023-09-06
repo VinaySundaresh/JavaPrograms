@@ -1,0 +1,18 @@
+package com.xworkz.Runner;
+
+import com.xworkz.implementation.PincodeRepository;
+import com.xworkz.implementation.PincodeRepositoryImpl;
+import com.xworkz.services.PincodeService;
+import com.xworkz.services.PincodeServiceImpl;
+
+public class PincodeRunner {
+
+	public static void main(String[] args) {
+		PincodeRepository pincodeRepository=new PincodeRepositoryImpl();
+		
+		PincodeService pincodeService=new PincodeServiceImpl(pincodeRepository);
+		
+		pincodeService.validateAndSave(577202);
+	}
+
+}

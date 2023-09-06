@@ -20,6 +20,7 @@ public class ArtistRunner {
 		artistRepository.details("Jeevan");
 		artistRepository.details("Sharan");
 		artistRepository.details("Abinav");
+		artistRepository.details("venu");
 		
 	}
 

@@ -1,0 +1,8 @@
+package com.xworkz.implementation;
+
+public interface MobileNoRepository {
+	int NO_OF_MOBILENO=10;
+	void storeMobile(long mobileNo);
+
+	boolean isExist(long mobileNo);
+}

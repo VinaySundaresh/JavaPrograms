@@ -1,0 +1,17 @@
+package com.xworkz.services;
+
+public class PincodeServiceImpl implements PincodeService {
+
+	@Override
+	public boolean validateAndSave(int pincodes) {
+		System.out.println("Invoking validateAndSave()  in "+this.getClass().getSimpleName());
+		String numberStr = Integer.toString(pincodes);
+		if(pincodes!=0 && numberStr.length()<6)
+		{
+			
+		}
+		
+		return false;
+	}
+
+}

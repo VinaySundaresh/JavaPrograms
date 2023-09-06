@@ -1,0 +1,34 @@
+package com.xworkz.services;
+
+import com.xworkz.implementation.PincodeRepository;
+
+public class PincodeServiceImpl implements PincodeService {
+
+	private PincodeRepository pincodeRepository;
+
+	public PincodeServiceImpl(PincodeRepository pincodeRepository) {
+		this.pincodeRepository = pincodeRepository;
+	}
+
+	@Override
+	public boolean validateAndSave(int pincodes) {
+		System.out.println("Invoking validateAndSave()  in " + this.getClass().getSimpleName());
+		String numberStr = Integer.toString(pincodes);
+		if (pincodes != 0 && numberStr.length() == 6) {
+			if(pincodeRepository.isExist(pincodes))
+			{
+			System.out.println("Pincode " + pincodes + " is valid one ..");
+			pincodeRepository.storePincodes(pincodes);
+			return true;
+			}
+			else{
+				System.err.println("Pincode is already present cannot add it");
+			}
+		} else {
+			System.err.println("Pincode is invalid");
+		}
+
+		return false;
+	}
+
+}

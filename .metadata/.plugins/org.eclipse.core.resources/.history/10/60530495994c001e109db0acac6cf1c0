@@ -1,0 +1,17 @@
+package com.xworkz.Runner;
+
+import com.xworkz.implementation.CountryRepository;
+import com.xworkz.implementation.CountryRepositoryImpl;
+import com.xworkz.services.CountryService;
+import com.xworkz.services.CountryServiceImpl;
+
+public class CountryRunner {
+
+	public static void main(String[] args) {
+		System.out.println("invoking main() in CountryRunner");
+		
+		CountryRepository countryRepository=new CountryRepositoryImpl();
+		CountryService countryService=new CountryServiceImpl(countryRepository);
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.xworkz.implementation;
+
+public class JuiceRepositoryImpl implements JuiceRepository {
+
+	@Override
+	public void store(String juice) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

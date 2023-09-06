@@ -1,0 +1,11 @@
+package com.xworkz.services;
+
+public class MobileNoServiceImpl implements MobileNoService {
+
+	@Override
+	public boolean validateAndSave(long mobileNo) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.xworkz.implementation;
+
+public class TrainNumberRepositoryImpl implements TrainNumberRepository {
+
+	private int[] trainNos = new int[NO_OFTRAINS];
+	private int position;
+
+	@Override
+	public void store(int trainNo) {
+if(this.position<NO_OFTRAINS)
+{
+	this.trainNos[position]=trainNo;
+}
+	}
+
+}

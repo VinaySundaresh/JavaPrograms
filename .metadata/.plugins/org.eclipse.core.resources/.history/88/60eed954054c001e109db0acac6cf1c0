@@ -1,0 +1,11 @@
+package com.xworkz.implementation;
+
+public class PincodeRepositoryImpl implements PincodeRepository {
+
+	@Override
+	public void storePincodes(int pincode) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

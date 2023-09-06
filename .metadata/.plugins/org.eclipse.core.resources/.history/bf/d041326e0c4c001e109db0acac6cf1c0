@@ -1,0 +1,17 @@
+package com.xworkz.implementation;
+
+public class LocationRepositoryImpl implements LocationRepository {
+
+	@Override
+	public void storeLocation(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean isExist(String name) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

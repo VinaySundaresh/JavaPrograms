@@ -1,0 +1,11 @@
+package com.xworkz.services;
+
+public class CountryServiceImpl implements CountryService {
+
+	@Override
+	public boolean validateAndSave(String name) {
+		System.out.println("Invoking validateAndSave() in "+this.getClass().getSimpleName());
+		return false;
+	}
+
+}

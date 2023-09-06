@@ -1,0 +1,6 @@
+package com.xworkz.services;
+
+public interface LocationService {
+	void validateAndStore(String name);
+
+}

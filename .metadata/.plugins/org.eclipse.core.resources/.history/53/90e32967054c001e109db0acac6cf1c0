@@ -1,0 +1,22 @@
+package com.xworkz.implementation;
+
+public class PincodeRepositoryImpl implements PincodeRepository {
+
+	private int[] pincodes=new int[NO_OF_PINCODES];
+	private int pos;
+	
+	@Override
+	public void storePincodes(int pincode) {
+		System.out.println("Invoking storePincodes() in "+this.getClass().getSimpleName());
+		
+		if(this.pos<NO_OF_PINCODES)
+		{
+			this.pincodes[pos]=pincode;
+			System.out.println("Pincode added is "+pincode+" at the position "+this.pos);
+			pos++;
+			
+		}
+
+	}
+
+}

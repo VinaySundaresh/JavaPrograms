@@ -1,0 +1,25 @@
+package com.xworkz.implementation;
+
+public class LocationRepositoryImpl implements LocationRepository {
+
+	private String[] location=new String[NO_OF_LOCATION];
+	private int pos;
+	
+	@Override
+	public void storeLocation(String name) {
+		System.out.println("Invoking storeLocation() in "+this.getClass().getSimpleName());
+		if(this.pos<NO_OF_LOCATION)
+		{
+			this.juices[pos]=juice;
+		
+		
+
+	}
+
+	@Override
+	public boolean isExist(String name) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

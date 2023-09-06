@@ -1,0 +1,11 @@
+package com.xworkz.services;
+
+public class LoactionServiceImpl implements LocationService {
+
+	@Override
+	public void validateAndStore(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

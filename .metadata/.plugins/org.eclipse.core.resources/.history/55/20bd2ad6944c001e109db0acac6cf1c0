@@ -1,0 +1,36 @@
+package com.xworkz.implementation;
+
+public class MobileNoRepositoryImpl implements MobileNoRepository {
+
+	private long[] mobileNos=new long[NO_OF_MOBILENO];
+	
+	private int position=0;
+	
+	@Override
+	public void storeMobile(long mobileNo) {
+		if(this.position<NO_OF_MOBILENO)
+		{
+			this.mobileNos[position]=mobileNo;
+			System.out.println("Mobile number "+mobileNo+" added at position "+this.position);
+			position++;
+		}
+		else{
+			System.err.println("Data xstore is full cannot add new MobileNo");
+		}
+	}
+
+	@Override
+	public boolean isExist(long mobileNo) {
+		System.out.println("Inovking isExist() in "+this.getClass().getSimpleName());
+		for(int index=0;index<=this.position;index++)
+		{
+			int temp=this.mobileNos[position];
+			if(temp==mobileNo)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+}

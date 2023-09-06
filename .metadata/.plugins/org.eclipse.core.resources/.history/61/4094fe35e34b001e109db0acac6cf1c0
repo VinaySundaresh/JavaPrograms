@@ -1,0 +1,11 @@
+package com.xworkz.services;
+
+public class JuiceServiceImpl implements JuiceService {
+
+	@Override
+	public void validateAndSave(String juice) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

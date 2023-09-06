@@ -1,0 +1,14 @@
+package com.xworkz.implementation;
+
+public class MobileNoRepositoryImpl implements MobileNoRepository {
+
+	private long[] mobileNos=new long[NO_OF_MOBILENO];
+	
+	private int position=0;
+	
+	@Override
+	public void storeMobile(long mobileNo) {
+		if(this.position<NO_OF_MOBILENO)
+	}
+
+}

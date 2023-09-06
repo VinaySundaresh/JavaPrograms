@@ -1,0 +1,11 @@
+package com.xworkz.implementation;
+
+public class TrainNumberRepositoryImpl implements TrainNumberRepository {
+
+	@Override
+	public void store(int trainNo) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.xworkz.implementation;
+
+public class JuiceRepositoryImpl implements JuiceRepository {
+
+	@Override
+	public void store(String juice) {
+		System.out.println("Invoking store() in "juice.getClass().getSimpleName());
+
+	}
+
+}

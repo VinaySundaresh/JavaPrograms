@@ -1,0 +1,15 @@
+package com.xworkz.implementation;
+
+public class JuiceRepositoryImpl implements JuiceRepository {
+
+	private String[] juices=new String[NO_OF_JUICES];
+	private pos;
+	
+	@Override
+	public void store(String juice) {
+		System.out.println("Invoking store() in "juice.getClass().getSimpleName());
+		
+
+	}
+
+}
