@@ -13,21 +13,19 @@ public class PincodeServiceImpl implements PincodeService {
 	@Override
 	public boolean validateAndSave(int pincodes) {
 		System.out.println("Invoking validateAndSave()  in " + this.getClass().getSimpleName());
-		if(pincodes>500000 && pincodes<700000)
-		{
-			if(!pincodeRepository.isExist(pincodes))
-			{
-				System.out.println("Train number "+pincodes+" is valid ");
-				this.pincodeRepository.storePincodes(pincodes);
+		
+		if (pincodes>500000 && pincodes<700000) {
+			if (pincodeRepository.isExist(pincodes)) {
+				System.out.println("Pincode " + pincodes + " is valid one ..");
+				pincodeRepository.storePincodes(pincodes);
 				return true;
+			} else {
+				System.err.println("Pincode is already present cannot add it");
 			}
-			else{
-				System.err.println("Pincode "+pincodes+" already present add another pincode");
-			}
-		}
-		else{
+		} else {
 			System.err.println("Pincode is invalid");
 		}
+
 		return false;
 	}
 

@@ -18,7 +18,7 @@ public class PincodeServiceImpl implements PincodeService {
 			if(!pincodeRepository.isExist(pincodes))
 			{
 				System.out.println("Train number "+pincodes+" is valid ");
-				this.pincodeRepository.storePincodes(pincodes);
+				this.pincodeRepository.store(pincodes);
 				return true;
 			}
 			else{
